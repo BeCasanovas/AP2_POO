@@ -8,6 +8,12 @@ public class Palestra extends Evento {
         this.palestrante = palestrante;
     }
 
-    public Palestrante getPalestrante() { return palestrante; }
-    public void setPalestrante(Palestrante palestrante) { this.palestrante = palestrante; }
+    //Getters and Setters
+    public Palestrante getPalestrante() {
+        return palestrante;
+    }
+
+    public void setPalestrante(Palestrante palestrante) {
+        this.palestrante = palestrante;
+    }
 }

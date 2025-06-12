@@ -17,14 +17,44 @@ public class Participante {
         this.curso = curso;
     }
 
-    public String getNome() { return nome; }
-    public void setNome(String nome) { this.nome = nome; }
-    public String getCpf() { return cpf; }
-    public void setCpf(String cpf) { this.cpf = cpf; }
-    public String getEmail() { return email; }
-    public void setEmail(String email) { this.email = email; }
-    public String getCurso() { return curso; }
-    public void setCurso(String curso) { this.curso = curso; }
-    public Set<Evento> getEventosInscritos() { return eventosInscritos; }
-    public void inscreverEvento(Evento evento) { eventosInscritos.add(evento); }
+    //Getters and Setters
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
+
+    public Set<Evento> getEventosInscritos() {
+        return eventosInscritos;
+    }
+
+    public void setEventosInscritos(Set<Evento> eventosInscritos) {
+        this.eventosInscritos = eventosInscritos;
+    }
 }

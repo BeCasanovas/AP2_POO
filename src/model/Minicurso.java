@@ -14,10 +14,28 @@ public class Minicurso extends Evento {
         this.materiaisApoio = materiaisApoio;
     }
 
-    public List<Instrutor> getInstrutores() { return instrutores; }
-    public void setInstrutores(List<Instrutor> instrutores) { this.instrutores = instrutores; }
-    public int getCargaHoraria() { return cargaHoraria; }
-    public void setCargaHoraria(int cargaHoraria) { this.cargaHoraria = cargaHoraria; }
-    public List<String> getMateriaisApoio() { return materiaisApoio; }
-    public void setMateriaisApoio(List<String> materiaisApoio) { this.materiaisApoio = materiaisApoio; }
+    //Getters and Setters
+    public List<Instrutor> getInstrutores() {
+        return instrutores;
+    }
+
+    public void setInstrutores(List<Instrutor> instrutores) {
+        this.instrutores = instrutores;
+    }
+
+    public int getCargaHoraria() {
+        return cargaHoraria;
+    }
+
+    public void setCargaHoraria(int cargaHoraria) {
+        this.cargaHoraria = cargaHoraria;
+    }
+
+    public List<String> getMateriaisApoio() {
+        return materiaisApoio;
+    }
+
+    public void setMateriaisApoio(List<String> materiaisApoio) {
+        this.materiaisApoio = materiaisApoio;
+    }
 }

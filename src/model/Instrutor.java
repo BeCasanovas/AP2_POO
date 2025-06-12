@@ -10,8 +10,20 @@ public class Instrutor extends PessoaResponsavel {
         this.areaEspecializacao = areaEspecializacao;
     }
 
-    public String getFormacao() { return formacao; }
-    public void setFormacao(String formacao) { this.formacao = formacao; }
-    public String getAreaEspecializacao() { return areaEspecializacao; }
-    public void setAreaEspecializacao(String areaEspecializacao) { this.areaEspecializacao = areaEspecializacao; }
+    // Getters and Setters
+    public String getFormacao() {
+        return formacao;
+    }
+
+    public void setFormacao(String formacao) {
+        this.formacao = formacao;
+    }
+
+    public String getAreaEspecializacao() {
+        return areaEspecializacao;
+    }
+
+    public void setAreaEspecializacao(String areaEspecializacao) {
+        this.areaEspecializacao = areaEspecializacao;
+    }
 }

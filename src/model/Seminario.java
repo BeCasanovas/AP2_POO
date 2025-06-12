@@ -12,10 +12,28 @@ public class Seminario extends Evento {
         this.orientador = orientador;
     }
 
-    public String getTema() { return tema; }
-    public void setTema(String tema) { this.tema = tema; }
-    public String getAlunoApresentador() { return alunoApresentador; }
-    public void setAlunoApresentador(String alunoApresentador) { this.alunoApresentador = alunoApresentador; }
-    public String getOrientador() { return orientador; }
-    public void setOrientador(String orientador) { this.orientador = orientador; }
+    // Getters and Setters
+    public String getTema() {
+        return tema;
+    }
+
+    public void setTema(String tema) {
+        this.tema = tema;
+    }
+
+    public String getAlunoApresentador() {
+        return alunoApresentador;
+    }
+
+    public void setAlunoApresentador(String alunoApresentador) {
+        this.alunoApresentador = alunoApresentador;
+    }
+
+    public String getOrientador() {
+        return orientador;
+    }
+
+    public void setOrientador(String orientador) {
+        this.orientador = orientador;
+    }
 }

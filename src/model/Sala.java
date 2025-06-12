@@ -10,8 +10,20 @@ public class Sala extends Local {
         this.Multimidia = temMultimidia;
     }
 
-    public int getNumeroSala() { return numeroSala; }
-    public void setNumeroSala(int numeroSala) { this.numeroSala = numeroSala; }
-    public boolean isTemMultimidia() { return temMultimidia; }
-    public void setTemMultimidia(boolean temMultimidia) { this.Multimidia = temMultimidia; }
+    //Getters and Setters
+    public int getNumeroSala() {
+        return numeroSala;
+    }
+
+    public void setNumeroSala(int numeroSala) {
+        this.numeroSala = numeroSala;
+    }
+
+    public boolean isMultimidia() {
+        return Multimidia;
+    }
+
+    public void setMultimidia(boolean multimidia) {
+        Multimidia = multimidia;
+    }
 }

@@ -10,8 +10,20 @@ public class Laboratorio extends Local {
         this.tipo = tipo;
     }
 
-    public int getNumComputadores() { return numComputadores; }
-    public void setNumComputadores(int numComputadores) { this.numComputadores = numComputadores; }
-    public String getTipo() { return tipo; }
-    public void setTipo(String tipo) { this.tipo = tipo; }
+    // Getters e Setters
+    public int getNumComputadores() {
+        return numComputadores;
+    }
+
+    public void setNumComputadores(int numComputadores) {
+        this.numComputadores = numComputadores;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
 }
