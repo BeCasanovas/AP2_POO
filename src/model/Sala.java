@@ -9,6 +9,10 @@ public class Sala extends Local {
         this.numeroSala = numeroSala;
         this.multimidia = multimidia;
     }
+    public Sala(String nome, int capacidadeMaxima, String bloco, boolean multimidia) {
+        super(nome, capacidadeMaxima, bloco);
+        this.numeroSala = numeroSala;
+        this.multimidia = multimidia;
 
     //Getters and Setters
     public int getNumeroSala() {
