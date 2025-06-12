@@ -10,11 +10,21 @@ public class Auditorio extends Local {
         this.TraducaoSimultanea = TraducaoSimultanea;
     }
 
+    // Getters and Setters
+
     public boolean isSom() {
         return Som;
     }
 
     public void setSom(boolean som) {
         Som = som;
+    }
+
+    public boolean isTraducaoSimultanea() {
+        return TraducaoSimultanea;
+    }
+
+    public void setTraducaoSimultanea(boolean traducaoSimultanea) {
+        TraducaoSimultanea = traducaoSimultanea;
     }
 }

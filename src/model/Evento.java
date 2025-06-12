@@ -15,14 +15,44 @@ public abstract class Evento {
         this.local = local;
     }
 
-    public String getTitulo() { return titulo; }
-    public void setTitulo(String titulo) { this.titulo = titulo; }
-    public String getData() { return data; }
-    public void setData(String data) { this.data = data; }
-    public int getDuracaoHoras() { return duracaoHoras; }
-    public void setDuracaoHoras(int duracaoHoras) { this.duracaoHoras = duracaoHoras; }
-    public double getOrcamento() { return orcamento; }
-    public void setOrcamento(double orcamento) { this.orcamento = orcamento; }
-    public Local getLocal() { return local; }
-    public void setLocal(Local local) { this.local = local; }
+    // Getters and Setters
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public int getDuracaoHoras() {
+        return duracaoHoras;
+    }
+
+    public void setDuracaoHoras(int duracaoHoras) {
+        this.duracaoHoras = duracaoHoras;
+    }
+
+    public double getOrcamento() {
+        return orcamento;
+    }
+
+    public void setOrcamento(double orcamento) {
+        this.orcamento = orcamento;
+    }
+
+    public Local getLocal() {
+        return local;
+    }
+
+    public void setLocal(Local local) {
+        this.local = local;
+    }
 }
