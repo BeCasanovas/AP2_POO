@@ -1,4 +1,3 @@
-// src/control/Main.java
 package control;
 
 import model.*;
