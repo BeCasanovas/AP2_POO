@@ -4,10 +4,10 @@ public class Sala extends Local {
     private int numeroSala;
     private boolean Multimidia;
 
-    public Sala(String nome, int capacidadeMaxima, String bloco, int numeroSala, boolean temMultimidia) {
+    public Sala(String nome, int capacidadeMaxima, String bloco, int numeroSala, boolean Multimidia) {
         super(nome, capacidadeMaxima, bloco);
         this.numeroSala = numeroSala;
-        this.Multimidia = temMultimidia;
+        this.Multimidia = Multimidia;
     }
 
     //Getters and Setters

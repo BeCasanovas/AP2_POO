@@ -4,10 +4,10 @@ public abstract class Evento {
     private String titulo;
     private String data;
     private int duracaoHoras;
-    private double orcamento;
+    private float orcamento;
     private Local local;
 
-    public Evento(String titulo, String data, int duracaoHoras, double orcamento, Local local) {
+    public Evento(String titulo, String data, int duracaoHoras, float orcamento, Local local) {
         this.titulo = titulo;
         this.data = data;
         this.duracaoHoras = duracaoHoras;
@@ -40,11 +40,11 @@ public abstract class Evento {
         this.duracaoHoras = duracaoHoras;
     }
 
-    public double getOrcamento() {
+    public float getOrcamento() {
         return orcamento;
     }
 
-    public void setOrcamento(double orcamento) {
+    public void setOrcamento(float orcamento) {
         this.orcamento = orcamento;
     }
 
