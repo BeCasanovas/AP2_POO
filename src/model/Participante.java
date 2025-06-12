@@ -1,29 +1,19 @@
+// src/model/Participante.java
 package model;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Participante {
-    private String nome;
+public class Participante extends Pessoa {
     private String cpf;
-    private String email;
     private String curso;
-    private Set<Evento> eventosInscritos = new HashSet<>();
+    private Set<Evento> eventosInscritos;
 
     public Participante(String nome, String cpf, String email, String curso) {
-        this.nome = nome;
+        super(nome, email);
         this.cpf = cpf;
-        this.email = email;
         this.curso = curso;
-    }
-
-    //Getters and Setters
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+        this.eventosInscritos = new HashSet<>();
     }
 
     public String getCpf() {
@@ -32,14 +22,6 @@ public class Participante {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getCurso() {
