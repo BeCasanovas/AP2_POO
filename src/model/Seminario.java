@@ -2,13 +2,13 @@ package model;
 
 public class Seminario extends Evento {
     private String tema;
-    private String alunoApresentador;
+    private String aluno;
     private String orientador;
 
-    public Seminario(String titulo, String data, int duracaoHoras, double orcamento, Local local, String tema, String alunoApresentador, String orientador) {
+    public Seminario(String titulo, String data, int duracaoHoras, float orcamento, Local local, String tema, String aluno, String orientador) {
         super(titulo, data, duracaoHoras, orcamento, local);
         this.tema = tema;
-        this.alunoApresentador = alunoApresentador;
+        this.aluno = aluno;
         this.orientador = orientador;
     }
 
@@ -21,12 +21,12 @@ public class Seminario extends Evento {
         this.tema = tema;
     }
 
-    public String getAlunoApresentador() {
-        return alunoApresentador;
+    public String getAluno() {
+        return aluno;
     }
 
-    public void setAlunoApresentador(String alunoApresentador) {
-        this.alunoApresentador = alunoApresentador;
+    public void setAluno(String aluno) {
+        this.aluno = aluno;
     }
 
     public String getOrientador() {
@@ -36,4 +36,5 @@ public class Seminario extends Evento {
     public void setOrientador(String orientador) {
         this.orientador = orientador;
     }
+}
 }

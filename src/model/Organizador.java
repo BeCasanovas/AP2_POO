@@ -1,6 +1,6 @@
 package model;
 
-public class Organizador extends PessoaResponsavel {
+public class Organizador extends Pessoa {
     private String funcaoAdministrativa;
 
     public Organizador(String nome, String email, String funcaoAdministrativa) {

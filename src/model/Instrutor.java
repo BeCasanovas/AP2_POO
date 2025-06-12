@@ -1,13 +1,13 @@
 package model;
 
-public class Instrutor extends PessoaResponsavel {
+public class Instrutor extends Pessoa {
     private String formacao;
-    private String areaEspecializacao;
+    private String especializacao;
 
-    public Instrutor(String nome, String email, String formacao, String areaEspecializacao) {
+    public Instrutor(String nome, String email, String formacao, String especializacao) {
         super(nome, email);
         this.formacao = formacao;
-        this.areaEspecializacao = areaEspecializacao;
+        this.especializacao = especializacao;
     }
 
     // Getters and Setters
@@ -19,11 +19,12 @@ public class Instrutor extends PessoaResponsavel {
         this.formacao = formacao;
     }
 
-    public String getAreaEspecializacao() {
-        return areaEspecializacao;
+    public String getEspecializacao() {
+        return especializacao;
     }
 
-    public void setAreaEspecializacao(String areaEspecializacao) {
-        this.areaEspecializacao = areaEspecializacao;
+    public void setEspecializacao(String especializacao) {
+        this.especializacao = especializacao;
     }
+}
 }

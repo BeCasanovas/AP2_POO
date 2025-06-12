@@ -27,3 +27,4 @@ public class Laboratorio extends Local {
         this.tipo = tipo;
     }
 }
+}

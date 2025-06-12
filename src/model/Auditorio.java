@@ -1,30 +1,30 @@
 package model;
 
 public class Auditorio extends Local {
-    private boolean Som;
-    private boolean TraducaoSimultanea;
+    private boolean som;
+    private boolean traducaoSimultanea;
 
-    public Auditorio(String nome, int capacidadeMaxima, String bloco, boolean Som, boolean TraducaoSimultanea) {
+    public Auditorio(String nome, int capacidadeMaxima, String bloco, boolean som, boolean traducaoSimultanea) {
         super(nome, capacidadeMaxima, bloco);
-        this.Som = Som;
-        this.TraducaoSimultanea = TraducaoSimultanea;
+        this.som = som;
+        this.traducaoSimultanea = traducaoSimultanea;
     }
 
     // Getters and Setters
-
     public boolean isSom() {
-        return Som;
+        return som;
     }
 
     public void setSom(boolean som) {
-        Som = som;
+        this.som = som;
     }
 
     public boolean isTraducaoSimultanea() {
-        return TraducaoSimultanea;
+        return traducaoSimultanea;
     }
 
     public void setTraducaoSimultanea(boolean traducaoSimultanea) {
-        TraducaoSimultanea = traducaoSimultanea;
+        this.traducaoSimultanea = traducaoSimultanea;
     }
+}
 }

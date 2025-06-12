@@ -2,12 +2,12 @@ package model;
 
 public class Sala extends Local {
     private int numeroSala;
-    private boolean Multimidia;
+    private boolean multimidia;
 
-    public Sala(String nome, int capacidadeMaxima, String bloco, int numeroSala, boolean Multimidia) {
+    public Sala(String nome, int capacidadeMaxima, String bloco, int numeroSala, boolean multimidia) {
         super(nome, capacidadeMaxima, bloco);
         this.numeroSala = numeroSala;
-        this.Multimidia = Multimidia;
+        this.multimidia = multimidia;
     }
 
     //Getters and Setters
@@ -20,10 +20,11 @@ public class Sala extends Local {
     }
 
     public boolean isMultimidia() {
-        return Multimidia;
+        return multimidia;
     }
 
     public void setMultimidia(boolean multimidia) {
-        Multimidia = multimidia;
+        this.multimidia = multimidia;
     }
+}
 }

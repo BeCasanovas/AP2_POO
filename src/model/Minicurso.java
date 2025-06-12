@@ -7,7 +7,7 @@ public class Minicurso extends Evento {
     private int cargaHoraria;
     private List<String> materiaisApoio;
 
-    public Minicurso(String titulo, String data, int duracaoHoras, double orcamento, Local local, List<Instrutor> instrutores, int cargaHoraria, List<String> materiaisApoio) {
+    public Minicurso(String titulo, String data, int duracaoHoras, float orcamento, Local local, List<Instrutor> instrutores, int cargaHoraria, List<String> materiaisApoio) {
         super(titulo, data, duracaoHoras, orcamento, local);
         this.instrutores = instrutores;
         this.cargaHoraria = cargaHoraria;
